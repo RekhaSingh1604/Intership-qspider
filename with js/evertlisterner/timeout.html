@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>time out</title>
+</head>
+<body>
+    <h1> I am using internally javascript</h1>
+    <button id="btn" onclick="changeBg()">start</button>
+<script>
+    function changeBg(){
+        const heading = document.querySelector("h1")
+        const body = document.body;
+        body.style.cssText="background-color: black; color: white;";
+        setTimeout(() => {
+            heading.textContent ="Sunooo sunooo "
+        },2000 );   }
+</script>
+</body>
+</html>

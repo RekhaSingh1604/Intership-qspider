@@ -1,0 +1,30 @@
+body{
+    background: pink;
+    background: url();
+}
+.about{
+    width: 400px;
+    height: 460px;
+    border-radius: 20px;
+    background-image: linear-gradient(#a51dba, #a12087, #2d47d7);
+    margin: 150px;
+  padding: 10px 25px;
+  text-align: center;
+  overflow: scroll;
+    border: 3px solid;
+    padding: 5px;
+}
+.about h2{
+    text-align: center;
+position: 10px 0px ;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #83a7be;
+    }
+    .container video{
+        height: 98vh;
+        width: 100%;
+        margin-left: 0%;
+    }

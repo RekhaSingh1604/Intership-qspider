@@ -1,0 +1,262 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    /*font-family: "Playwrite CU", cursive;*/
+padding: 0%;
+}
+
+/*body{
+    width: 100vw;
+    height: 100vh;
+}*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 30px 10px;
+    line-height: 100%;
+
+}
+/*.logo{
+    cursor: pointer;
+    width: 19px;
+    height: 90;
+    margin-left: 150px;
+}*/
+
+.logo {
+    margin-top: 20px;
+    width: 176px;
+    height: 35px;
+    margin-left: 210px;
+    text-decoration: none;
+}
+/*.nav_links{
+    list-style: none;
+}*/
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    margin-right: 90px; 
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;    
+    color: black;
+    line-height: none;
+    text-decoration: none;
+    word-spacing: 0.5rem;
+    /* width: 20px; */
+    /* margin-right: 120px; */
+
+
+
+}
+.nav_links li a:hover{
+    color: rgb(9, 52, 133);
+}
+
+.landing{
+    width: 850px;
+    height: 410px;
+    margin-left: 410px;
+    margin-top: 80px;
+}
+
+ h1{
+    font-size: 300%;
+    margin-left: 590px;
+    margin-bottom: 50px;
+ }
+    
+p{
+
+    margin-left: 450px;
+    font-size: 27px;
+}
+.button-container{
+        text-align: center;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center; 
+        margin-bottom: 100px;
+ }
+
+    .button-container>a{
+        text-decoration: none;
+background-color: rgb(12, 109, 219);      
+  color: white;
+        padding:13px 50px;
+        margin-top: 95px;
+        font-size: 25px;
+        border-radius: 05px;
+        font-weight: 700;
+    }
+    .button-container :hover{
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0%;
+    
+}
+/* header{ */
+    /* margin-right: 30px; */
+
+/* } */
+.img_of{
+    float: right;
+}
+img{
+    box-shadow: 0px 0.25px 2px 0px rgb(175, 17, 17);
+
+    width: 700px;
+    height: 600px;
+    margin-bottom: 3px;
+    margin-right: 400px;
+    margin-left: 10px;
+}
+ a{
+    float: right;
+    align-self: flex-end;
+    display: flex;
+    background-position: bottom ;
+
+}
+a:hover{
+    background-color: aqua;
+}
+.img_of a{
+    background-position: bottom ;
+    display: flex;
+    background-color: black;
+    margin-bottom: 450px;
+    padding: 10px 20px;
+}
+article{
+    /* width: 550px;   */
+    width: 100vw;
+    height: 100vh;
+    margin-top: 30px;
+     margin-left: 300px;
+      /* font-family : "Rajdhani", sans-serif; */
+        /* font-weight: 30; */
+        /* font-style: normal; */
+/* @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Rajdhani:wght@300;400;500;600;700&display=swap'); */
+}
+
+
+.first{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-right: 40px;
+    letter-spacing: 1px;
+    margin-top: 70px;
+        
+      }
+      
+      .rajdhani-regular {
+        font-family: "Rajdhani", sans-serif;
+            
+}
+      
+
+
+.second{
+    /* font-family: "Antic Slab", serif; */
+    font-style: normal;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.third{
+    font-weight: 100;
+    font-size: 18px;
+    font-family: 500;
+    letter-spacing: 0.5px;
+}
+.fourth{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.five{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.six{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.seven{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 100;
+
+}
+
+.eight{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.nine{
+font-size: 20px;
+font-weight: 100;
+
+}
+
+span{
+    color: rgb(14, 87, 129);
+}
+
+.shadow h4{
+text-shadow: 0px -200px 0px pink;
+font-size: large;
+}
+    
+  .prices{
+    margin-right: 0px;
+    margin-top: 0%;
+  }  
+  
+
+  .prices>p{
+    margin-top: 2%;
+    margin-left: 18%;
+    font-size: 20px;
+  }
+
+/*.prices{
+     display: flex; 
+     align-items: center; 
+     justify-content: space-between; 
+}*/
+.hello{
+    margin-top: 0%;
+    float:right;
+    width: 260px;
+    height: 100px;
+  }
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: 100%;
+    width: 100%;
+    height: 100%;
+}

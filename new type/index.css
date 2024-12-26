@@ -1,0 +1,17 @@
+body{
+height: 100%;
+width: 100px;
+background-color: aqua;
+background-image: url(pexels-apasaric-2341830.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+p{
+    color: blue;
+    width: 89px;
+}
+section:Explore{
+    height: 10%;
+    width: 30px;
+
+}

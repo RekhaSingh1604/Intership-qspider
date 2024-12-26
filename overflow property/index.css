@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;background-image: url(pexels-philippedonn-1242764.jpg);
+background-repeat: no-repeat;
+}
+.card{
+background-color: magenta;
+display: flex;
+overflow: scroll;
+text-align: justify;
+padding: 10px 25px;
+    border: 4px solid black;
+    margin: 150px auto;
+    font-size: 25px;
+width: 330px;
+height: 346px;
+
+}
+.card:hover.star{
+    filter: drop-shadow(0 0 #fffdef);
+display: block;
+}

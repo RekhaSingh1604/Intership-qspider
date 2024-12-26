@@ -1,0 +1,35 @@
+*{
+    
+        background-color: pink;
+height: 50vh;
+width: 50vw;
+
+/*background-image: url(india.jpeg);
+background-repeat: no-repeat;
+background-size: 250px 280px;
+background-position:     center 140px;
+margin-left: 100px;*/
+}
+
+section{
+    color: brown;
+    letter-spacing: 0px;
+margin-right: 0px;
+}
+span{
+color: blueviolet;    
+}
+ div{
+    text-align: center;
+    margin-left: 280px;
+    text-decoration: underline;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 80px;
+    color: darkorange;
+    text-shadow: -400px 0px 10px green;
+                  400px 0px 10px orangered;
+     0px -200px 10px olivedrab;
+     0px 200px 10px green;/*bootom*/
+
+ }

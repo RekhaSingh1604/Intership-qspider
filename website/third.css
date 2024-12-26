@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0%;
+    
+}
+/* header{ */
+    /* margin-right: 30px; */
+
+/* } */
+.img_of{
+    float: right;
+}
+img{
+    width: 700px;
+    height: 600px;
+    margin-bottom: 3px;
+    margin-right: 400px;
+    margin-left: 10px;
+}
+ a{
+    float: right;
+    align-self: flex-end;
+    display: flex;
+    background-position: bottom ;
+
+}
+a:hover{
+    background-color: aqua;
+}
+.img_of a{
+    background-position: bottom ;
+    display: flex;
+    background-color: black;
+    margin-bottom: 450px;
+    padding: 10px 20px;
+}
+article{
+    /* width: 550px;   */
+    width: 100vw;
+    height: 100vh;
+    margin-top: 30px;
+     margin-left: 300px;
+      /* font-family : "Rajdhani", sans-serif; */
+        /* font-weight: 30; */
+        /* font-style: normal; */
+/* @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Rajdhani:wght@300;400;500;600;700&display=swap'); */
+}
+
+
+.first{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-right: 40px;
+    letter-spacing: 1px;
+    margin-top: 70px;
+        
+      }
+      
+      .rajdhani-regular {
+        font-family: "Rajdhani", sans-serif;
+            
+}
+      
+
+
+.second{
+    /* font-family: "Antic Slab", serif; */
+    font-style: normal;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.third{
+    font-weight: 100;
+    font-size: 18px;
+    font-family: 500;
+    letter-spacing: 0.5px;
+}
+.fourth{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.five{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.six{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.seven{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 100;
+
+}
+
+.eight{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.nine{
+font-size: 20px;
+font-weight: 100;
+
+}
+
+span{
+    color: rgb(14, 87, 129);
+}
+
+.shadow h4{
+text-shadow: 0px -200px 0px pink;
+font-size: large;
+}
